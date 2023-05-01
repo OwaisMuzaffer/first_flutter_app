@@ -17,13 +17,7 @@ class Gradientcontainer extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
-      child: Center(
-        child: Column(
-          children: [Owaistext(), StyledText()],
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.start,
-        ),
-      ),
+      child: Center(child: StyledText()),
     );
   }
 }

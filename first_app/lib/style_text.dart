@@ -11,15 +11,3 @@ class StyledText extends StatelessWidget {
     );
   }
 }
-
-class Owaistext extends StatelessWidget {
-  Owaistext({super.key});
-
-  @override
-  Widget build(context) {
-    return const Text(
-      'owais text',
-      style: TextStyle(color: Colors.white, fontSize: 28),
-    );
-  }
-}
